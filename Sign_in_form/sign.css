@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap');
+
+*{
+	margin:4px 8px;
+	font-family:'Archivo Narrow', sans-serif;
+}
+body{
+	background-color: #0c0c0c;
+}
+.logo img{
+
+	width: 120px;
+	float:left;
+	position:absolute;
+	left:4%;
+	top:1%;
+}
+
+.boo{
+	background: #0c0c0c;
+	height:220px;
+	width:360px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+		border-radius:2px;
+
+}
+.boo img{
+	width:120px;
+	position:absolute;
+	padding: 0 30%;
+}
+.boo input{
+	width:290px;
+	height:40px;
+	position: absolute;
+	left:3.5%;
+	top:30%;
+	background-color:#080000;
+	border: 1px solid #585858;
+	color:#080000;
+		padding:0 15px;
+		font-size:px;
+}
+.boo input:hover {
+	background-color: rgb(255, 255, 255);
+  }
+.boo #passinp{
+	width:290px;
+	height:40px;
+	position: absolute;
+	left:3.5%;
+	top:50%;
+	background-color:#080000;
+	border: 1px solid #585858;
+	color:#080000;
+	padding:0 15px;
+	margin-top: 5px;
+}
+.boo #passinp:hover{
+	background-color: rgb(255, 255, 255);
+  }
+.boo button{
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+	background:#9b9393;
+	border:none;
+	width:290px;
+	height:35px;
+	position: fixed;
+	text-align: center;
+	left:3.5%;
+	top:70%;
+	margin-top: 22px;
+		border-radius:2px;
+
+}
+.boon a{
+	color:#9b9393;
+	font-size: 25px;
+	align-items: center;
+	border:none;
+	width:290px;
+	height:35px;
+	position: fixed;
+	text-align: center;
+	left:3.5%;
+	top:100%;
+	margin-top: 22px;
+		border-radius:2px;		
+}
+
+
+
+
+
+	
+
